@@ -1,0 +1,58 @@
+.section-container {
+    background-color: #f5f5f5;
+      padding: 40px 20px;
+        text-align: center;
+          border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .section-title {
+              font-size: 28px;
+                color: #333;
+                  margin-bottom: 10px;
+                    font-family: 'Open Sans', sans-serif;
+                    }
+
+                    .section-description {
+                      font-size: 16px;
+                        color: #666;
+                          margin-bottom: 20px;
+                            font-family: 'Open Sans', sans-serif;
+                            }
+
+                            .search-bar {
+                              display: flex;
+                                justify-content: center;
+                                  gap: 10px;
+                                  }
+
+                                  .search-input {
+                                    padding: 10px;
+                                      font-size: 14px;
+                                        border: 1px solid #ccc;
+                                          border-radius: 4px;
+                                            width: 250px;
+                                              font-family: 'Open Sans', sans-serif;
+                                              }
+
+                                              .get-started-button {
+                                                padding: 10px 20px;
+                                                  background-color: #ca5d1e;
+                                                    color: #ffffff;
+                                                      border: none;
+                                                        border-radius: 4px;
+                                                          cursor: pointer;
+                                                            font-size: 14px;
+                                                              transition: background-color 0.3s ease;
+                                                                font-family: 'Open Sans', sans-serif;
+                                                                }
+
+                                                                .get-started-button:hover {
+                                                                  background-color: #b04f19;
+                                                                  }
+
+                                                                  .search-input:focus {
+                                                                    outline: none;
+                                                                      border-color: #ca5d1e;
+                                                                      }
+
